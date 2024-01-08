@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!--comentário no HTML-->
+<html>
+    <head>
+        <title>
+            Responsividade
+        </title>
+        <link rel="stylesheet" href="estilo.css">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Título com Responsividade</h1>
+        </header>
+        <nav>
+            <div>Opção 1</div>
+            <div>Opção 2</div>
+            <div>Opção 3</div>
+            <div>Opção 4</div>
+        </nav>
+        <picture>
+            <source srcset="imagens/montanha1.jpg" 
+                media="(max-width: 600px)">
+
+            <source srcset="imagens/montanha2.jpg" 
+                media="(max-width: 1500px)">
+
+            <source srcset="imagens/montanha3.jpg">
+            <img src="imagens/montanha3.jpg" alt="Foto de Montanha">
+        </picture>
+    </body>
+</html>

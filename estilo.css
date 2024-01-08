@@ -1,0 +1,25 @@
+h1{
+    font-size: 5vw;/*tamanho do viewport*/
+}
+
+nav div{
+    width: 25%;
+    padding: 10px;
+    background-color: rgba(0,0,255,0.5);
+    border: 1px #fff solid;
+    float: left;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px){
+    nav div{
+        width:50%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+    nav div{
+        width: 100%;
+        float: none;
+    }
+}
